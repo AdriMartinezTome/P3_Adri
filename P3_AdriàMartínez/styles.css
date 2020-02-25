@@ -1,0 +1,246 @@
+body {
+  background: #e8e1d1;
+  color: #7c6b4f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-width: 960px;
+  padding: 0;
+}
+
+p a {
+  color: #706758;
+}
+
+p a:hover {
+  color: #3e3524;
+}
+
+#header {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#header div {
+  margin: 65px 0 0;
+}
+
+#header div a {
+  display: block;
+  margin: 0 auto;
+  width: 320px;
+}
+.llista{
+    text-align: center;
+    margin: 25px 0 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+}
+.divs{
+ height: 34px;
+ margin: 0 5px; 
+}
+.divs a{
+    color: #164773;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 32px;
+    text-align: center;
+}
+.divs a span {
+    cursor: pointer;
+    display: block;
+    padding: 0 15px;
+    border: 1px solid black;
+}
+#body,
+div.body {
+  background: #f6efe5;
+  border: 1px solid #e0dacc;
+  margin: 17px auto 25px;
+  overflow: hidden;
+  padding: 0 0 30px;
+  width: 960px;
+  height: 645px;
+}
+#page {
+  background: url(images/bg-body.jpg) repeat-x center top;
+  overflow: hidden;
+  width: 100%;
+}
+      
+        .wrapper {
+            padding: 0;
+            display: grid;
+            grid-template-columns: auto auto auto ;            
+        }
+        
+        .box {
+            height: 650px;
+            padding: 0 25px 0 20px;
+            position: relative;
+            width: 275px;  
+            padding: 0 25px 0 20px;
+        }
+        
+        #body wrapper box:first-child {
+  background: none;
+}
+#body h1 {
+  font-family: Times New Roman, Times, serif;
+  font-size: 28px;
+  line-height: 28px;
+  margin: 0;
+  padding: 28px 0;
+}
+#body h1 a {
+  color: #0d4d79;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 0 1px #f8ffff;
+}
+#body h1 a:hover {
+  color: #1c3345;
+}
+#body div {
+ margin-bottom:15px;
+}
+
+.foto {
+  padding: 3px;
+}
+
+.foto:hover {
+  opacity: 0.6;
+}
+
+.readmore {
+  color: #69614a;
+  height: 24px;
+  line-height: 24px;
+  position: absolute;
+  left: 90px;
+  bottom: 0;
+  text-decoration: none;
+  text-align: center;
+  width: 142px;
+  border: 1px solid #706758;
+}
+.p1{
+    line-height: 23px;
+    text-align: justify;
+}
+.s1{
+    color: #3e3524;
+  font-size: 16px;
+  font-family: Times New Roman, Times, serif;
+  font-weight: bold;
+  padding: 0 0 8px;
+  text-transform: uppercase;
+}
+div.body h2 {
+  color: #0D4D79;
+  font-family: Times New Roman, Times, serif;
+  font-size: 28px;
+  line-height: 28px;
+  padding: 0 0 30px;
+  text-shadow: 0 1px #F8FFFF;
+  text-transform: uppercase;
+}
+
+div.body {
+  padding: 30px 20px;
+  width: 920px;
+}
+
+#footer {
+  background: url(images/bg-footer.jpg) repeat-x center bottom;
+  height: 458px;
+  width: 100%;
+}
+.grid2{             
+            display: grid;
+            grid-template-columns: auto auto auto auto ;  
+           margin: 0 auto 25px;
+           width:960px;
+}
+.box2{
+        width: 220px;
+}
+#footer h3 {
+  color: #0D4D79;
+  font-family: Times New Roman, Times, serif;
+  font-size: 20px;
+  margin: 0 0 5px;
+  text-indent: 15px;
+  text-shadow: 0 1px #F8FFFF;
+}
+#footer div {
+  height: 275px;
+  position: relative;
+}
+
+#footer div p,
+#footer div b,
+#footer div span {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 13px;
+}
+#footer div span {
+  font-size: 12px;
+}
+#footer div a.viewall {
+  color: #a29c8e;
+  font-size: 12px;
+  padding: 0 13px 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  text-align: right;
+}
+.footer2{
+            margin: 120px auto 0px auto;
+            width: 960px;
+}
+#footer div p.connect {
+  float: left;
+  color: #988878;
+  font-family: Times New Roman, Times, serif;
+}
+
+#footer div p.footnote {
+    font-family: Times New Roman, Times, serif;
+  float: right;
+  color: #988878;
+}
+#footer div p a {
+  color: #988878;
+  text-decoration: none;
+}
+
+#footer div p a:hover {
+  color: #988878;
+  text-decoration: underline;
+}
+
+.connect {
+  float: left;
+  color: #988878;
+}
+
+.footnote {
+  float: right;
+  color: #988878;
+}
+#footer img {
+	margin:8px 0px 8px 14px;
+}
+	
